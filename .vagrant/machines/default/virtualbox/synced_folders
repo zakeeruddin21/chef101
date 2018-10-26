@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/zakeer/Desktop/desktop-sept-2018/DevOps-Notes/vagrant/chef-zero","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

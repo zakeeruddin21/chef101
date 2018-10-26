@@ -1,0 +1,13 @@
+{
+  "name": "nisum-chef-zero-server",
+  "chef_environment": "_default",
+  "run_list": [
+  "recipe[apache]"
+]
+,
+  "normal": {
+    "tags": [
+
+    ]
+  }
+}
