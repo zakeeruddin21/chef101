@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Welcome to the <%= node['apache']['msg'] %> !!!!</h1>
+<p>Click the button to display the hostname of the current URL.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = <%= node['name'] %>;
+    document.getElementById("demo").innerHTML= x;
+}
+</script>
+
+</body>
+</html>
