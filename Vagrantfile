@@ -85,7 +85,7 @@ Vagrant.configure("2") do |config|
     gem install chef-zero
 
     # Start Chef-zero
-    cd /vagrant/ chef-zero -d
+    cd /vagrant/ && chef-zero -d
 
     # cd /vagrant/
     # sudo knife upload .
